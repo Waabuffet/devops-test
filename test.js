@@ -13,7 +13,7 @@ describe('Website API test', () => {
         chai.request(server).get(env.api).end((err, resp) => {
             resp.should.have.status(200);
             resp.body.should.be.a('object', "Response body is not an object");
-            resp.body.should.have.property('response');
+            resp.body.should.have.property('responses');
             resp.body.response.should.be.a('string', "Website api response is not a string");
             resp.body.response.should.equal(respOKstring, "Website api returns wrong string");
             done();
