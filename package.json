@@ -4,7 +4,7 @@
   "main": "run-test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test-jenkins": "JUNIT_REPORT_PATH=<REPORT_PATH> mocha --colors --reporter mocha-jenkins-reporter"
+    "test-jenkins": "mocha --colors --reporter mocha-jenkins-reporter"
   },
   "author": "",
   "license": "ISC",

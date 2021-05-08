@@ -1,6 +1,0 @@
-<testsuites name="Mocha Tests">
-  <testsuite name="Website API test" tests="1" errors="0" failures="0" skipped="0" timestamp="2021-05-08T10:03:16" time="0.023">
-    <testcase classname="Website API test" name="It should return a json property response equals to string &quot;Hello World&quot;" time="0.019">
-    </testcase>
-  </testsuite>
-</testsuites>
