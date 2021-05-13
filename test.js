@@ -2,7 +2,7 @@ var env = require('./env/env');
 let chai = require('chai');
 let chaiHttp = require('chai-http');
 
-var respOKstring = 'Hello World!';
+var respOKstring = 'Hello World';
 var server = env.method + '://' + env.host + ':' + env.port;
 
 chai.should();
